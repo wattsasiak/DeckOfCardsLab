@@ -1,0 +1,24 @@
+﻿@model Root 
+@{
+    ViewData["Title"] = "NewDeck";
+}
+
+<h1>Deck of Cards</h1>
+
+
+@foreach (MyCards cardItem in Model.cards)
+{
+
+<div class="container-md">
+    <img src=@cardItem.image alt="CardImage" />
+    <br />
+    Code: @cardItem.code
+    <br />
+    ValueL @cardItem.value
+    <br />
+    Suit: @cardItem.suit
+</div>
+}
+
+
+
