@@ -41,7 +41,7 @@ namespace DeckOfCards.Controllers
         //Generate a new deck of cards, capture the deck ID returned
 
 
-        //Draw 5 cards from the deck and display their names and images inside a ciew
+        //Draw 5 cards from the deck and display their names and images inside a view
 
 
         public IActionResult Privacy()
